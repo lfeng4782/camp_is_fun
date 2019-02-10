@@ -1308,6 +1308,7 @@ h3.title {
 /*--//responsive--*/
 .thumbnail img {
      width: 100%;
+     height: 300px;
 }
 
 .thumbnail{
