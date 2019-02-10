@@ -15,8 +15,9 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 //mongoose.connect("mongodb://localhost:27017/myCamp", { useNewUrlParser: true });
-var url = process.env.DATABASEURL || "mongodb://localhost:27017/myCamp";
-mongoose.connect(url, { useNewUrlParser: true });
+//var url = process.env.DATABASEURL || "mongodb://localhost:27017/myCamp";
+//mongoose.connect(url);
+mongoose.connect("mongodb://phyflx:feng2014@ds129045.mlab.com:29045/campingisfu", { useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
