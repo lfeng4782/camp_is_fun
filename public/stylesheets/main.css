@@ -1318,7 +1318,17 @@ h3.title {
 .thumbnail .caption-full {
      padding: 9px;
 }
+.thumbnail_2 img {
+     width: 100%;
+}
 
+.thumbnail_2{
+     padding:0;
+}
+
+.thumbnail_2 .caption-full {
+     padding: 9px;
+}
 .delete-form{
      display: inline;
 }
