@@ -1,13 +1,13 @@
 {
-  "name": "yelpcamp",
+  "name": "campingIsFun",
   "version": "1.0.0",
-  "description": "Yelp Camp",
+  "description": "Camping Is Fun",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node app.js"
   },
-  "author": "Leslie Feng",
+  "author": "Feng",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
